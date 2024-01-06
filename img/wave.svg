@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 504" width="1640" height="504">
+	<title>New Project</title>
+	<defs>
+		<image width="2880" height="640" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTQ0MCAzMjAiPjxwYXRoIGZpbGw9IiNmZmQ3MDAiIGZpbGwtb3BhY2l0eT0iMSIgZD0iTTAsMzIwTDYwLDI5OC43QzEyMCwyNzcsMjQwLDIzNSwzNjAsMjI0QzQ4MCwyMTMsNjAwLDIzNSw3MjAsMjA4Qzg0MCwxODEsOTYwLDEwNywxMDgwLDEwNi43QzEyMDAsMTA3LDEzMjAsMTgxLDEzODAsMjE4LjdMMTQ0MCwyNTZMMTQ0MCwzMjBMMTM4MCwzMjBDMTMyMCwzMjAsMTIwMCwzMjAsMTA4MCwzMjBDOTYwLDMyMCw4NDAsMzIwLDcyMCwzMjBDNjAwLDMyMCw0ODAsMzIwLDM2MCwzMjBDMjQwLDMyMCwxMjAsMzIwLDYwLDMyMEwwLDMyMFoiPjwvcGF0aD48L3N2Zz4="/>
+	</defs>
+	<style>
+	</style>
+	<use id="wave-odl" href="#img1" transform="matrix(.569,0,0,.569,0,-116)"/>
+	<use id="wave-odl copy" href="#img1" transform="matrix(-0.569,0,0,-0.569,1640,610.444)"/>
+</svg>
