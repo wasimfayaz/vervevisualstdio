@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1763 576" width="1763" height="576">
+	<title>New Project</title>
+	<defs>
+		<image width="2880" height="640" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTQ0MCAzMjAiPjxwYXRoIGZpbGw9IiMwYzBkMGQiIGZpbGwtb3BhY2l0eT0iMSIgZD0iTTAsMzIwTDQ4LDMyMEM5NiwzMjAsMTkyLDMyMCwyODgsMjg4QzM4NCwyNTYsNDgwLDE5Miw1NzYsMTkyQzY3MiwxOTIsNzY4LDI1Niw4NjQsMjQ1LjNDOTYwLDIzNSwxMDU2LDE0OSwxMTUyLDEyMi43QzEyNDgsOTYsMTM0NCwxMjgsMTM5MiwxNDRMMTQ0MCwxNjBMMTQ0MCwzMjBMMTM5MiwzMjBDMTM0NCwzMjAsMTI0OCwzMjAsMTE1MiwzMjBDMTA1NiwzMjAsOTYwLDMyMCw4NjQsMzIwQzc2OCwzMjAsNjcyLDMyMCw1NzYsMzIwQzQ4MCwzMjAsMzg0LDMyMCwyODgsMzIwQzE5MiwzMjAsOTYsMzIwLDQ4LDMyMEwwLDMyMFoiPjwvcGF0aD48L3N2Zz4="/>
+	</defs>
+	<style>
+	</style>
+	<use id="wave" href="#img1" transform="matrix(.667,0,0,.667,-157,-138)"/>
+	<use id="wave copy" href="#img1" transform="matrix(.667,0,0,-0.667,-157,713.667)"/>
+</svg>

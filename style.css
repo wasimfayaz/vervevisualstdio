@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: black;
+}
 .container {
   width: 100%;
 }
@@ -10,6 +13,7 @@
 /* HEADER, NAVBAR HERE */
 
 header{
+  z-index: 3;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -32,7 +36,11 @@ header{
   color: white;
   font-size: 20px;
   font-family: "Red Hat Display", sans-serif;
+  
 }
+.logo-1 h1:hover{
+  transition: 1s;
+  text-shadow: rgba(250,250,250,0.64) 0px 0px 16px;}
 nav {
   width: 65%;
 }
@@ -57,6 +65,38 @@ li:first-child a {
   color: yellow;
 }
 
+li a:hover{
+  transition: .5s;
+  text-shadow: rgba(250, 250, 250, 0.64) 0px 0px 16px;
+}
+
+.opa-img{
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  -webkit-animation: fade-in 5s linear both;
+	        animation: fade-in 5s linear both;
+}
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 /* Here goes main, asides */
 main {
   width: 100%;
@@ -77,14 +117,16 @@ main {
   font-size: 30px;
   font-family: "Dosis", sans-serif;
   padding: 120px;
+  
 }
 
 #box-1 h2 {
-  color: white;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.513);
   line-height: 70px;
 }
 span {
-  color: rgba(255, 255, 0, 0.488);
+  color: rgba(255, 255, 255, 0.893);
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
   animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -140,16 +182,6 @@ span {
       0 0 75px #d8b30b;
   }
 }
-
-
-/*  */
-#illust-1{
-  /* grid-column-start: 1;
-  grid-column-end: 3; */
-  /* background-color: rebeccapurple; */
-}
-
-
 
 /*  */
 #sec-2{
