@@ -251,17 +251,17 @@ section img {
   header {
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
-    /* background-color: red; */
     position: fixed;
     top: 0;
     flex-direction: column;
   }
-  .desktop :not(:first-child){
+  .desktop :not(:first-child) {
     display: none;
   }
 
-
-  .open-, .close- {
+  .open-,
+  .close- {
+    padding: 0 5px;
     position: absolute;
     top: 0;
     left: 0;
@@ -270,11 +270,12 @@ section img {
   }
   .sidebar {
     display: none;
-        position: absolute;
-        top: 0;
-        width: 80%;
-        background-color: rgba(0, 0, 0, 0.587);
-        backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.587);
+    backdrop-filter: blur(10px);
   }
   .sidebar ul {
     width: 100%;
@@ -285,6 +286,7 @@ section img {
     padding: 0;
   }
   .sidebar ul a {
+    padding: 34px 0px;
     text-align: center;
     display: block;
     width: 100%;
