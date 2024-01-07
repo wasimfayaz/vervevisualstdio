@@ -326,6 +326,10 @@ section img {
   .opa-img {
     top: 50px;
   }
+  .sec-2{
+    display: none;
+  }
+
 }
 
 
