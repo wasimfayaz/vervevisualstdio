@@ -326,7 +326,7 @@ section img {
   .opa-img {
     top: 50px;
   }
-  .sec-2{
+  #sec-2 img{
     display: none;
   }
 
@@ -347,7 +347,7 @@ section img {
     line-height: 1;
     font-size: 22px;
   }
-  .sec-2{
+  #sec-2 img{
     display: none;
   }
 
