@@ -232,8 +232,16 @@ section img{
 @media only screen and (max-width: 600px){
   .menus{
     /* background-color: rebeccapurple; */
-    padding: 14px 0px;
+    padding: 14px 5px;
     /* height: 100%; */
+  }
+  .menus #img-1{
+    display: none;
+    filter: invert(100%);
+
+  }
+  .menus #img-2{
+    filter: invert(100%);
   }
   .logo-1{
     width: 100%;
@@ -261,6 +269,12 @@ section img{
 .menus:hover ~ .sidebar ul{
   display: flex;
 }
+.menus:hover ~ #img-1{
+  display: flex;
+}
+.menu:hover ~ #img-2{
+  display: none;
+}
 
   /*  */
   main{
@@ -272,10 +286,10 @@ section img{
   }
   #box-1 h2{
     line-height: 1;
-    font-size: 8px;
+    font-size: 10px;
   }
   #box-1 span{
-    font-size:9px;
+    font-size:14px;
   }
 
   #box-2{
@@ -284,9 +298,9 @@ section img{
   }
 
   #me{
-    margin-top: 0;
-    width: 70px;
-    height: 70px;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
   }
 
   .opa-img{
