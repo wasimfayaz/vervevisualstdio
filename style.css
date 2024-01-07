@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
 * {
   padding: 0;
   margin: 0;
@@ -40,6 +42,7 @@ header {
   padding: 0 24px;
   display: flex;
   align-items: center;
+  margin-right: 140px;
 }
 .logo-1 h1 {
   color: white;
@@ -70,13 +73,113 @@ a {
   padding: 14px 10px;
   font-family: "Red Hat Display", sans-serif;
 }
-li:first-child a {
-  color: yellow;
+
+#home {
+  /* color: red; */
+  border-bottom: 2px solid yellow;
+}
+#home:hover {
+  border-bottom: 2px solid white;
+}
+li a:hover {
+  transition: 0.7s ease;
+  text-shadow: rgba(250, 250, 250, 0.64) 0px 0px 16px;
+  color: #d8b20b8f;
+}
+.desktop li:last-child{
+  margin-left: auto;
+
 }
 
-li a:hover {
-  transition: 0.5s;
-  text-shadow: rgba(250, 250, 250, 0.64) 0px 0px 16px;
+#down-cv{
+  margin-right: 20px;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid yellow;
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+-moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+animation: border-flicker 2s linear infinite;
+animation: text-flicker 3s linear infinite;
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 1;
+  }
+  4% {
+    opacity: 0.1;
+  }
+
+  8% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity: 0.1;
+  }
+
+  2% {
+    opacity: 1;
+  }
+
+  8% {
+    opacity: 0.1;
+  }
+
+  9% {
+    opacity: 1;
+  }
+
+  12% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  30% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.7;
+  }
+  72% {
+    opacity: 0.2;
+  }
+
+  77% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+#down-cv:hover{
+  transition: 1s ease;
+  cursor: pointer;
+  color: yellow;
+  border: 1px solid white;
 }
 
 .opa-img {
@@ -119,7 +222,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   width: 100%;
   height: 150px;
   font-family: "Dosis", sans-serif;
@@ -127,14 +229,22 @@ main {
 }
 
 #box-1 h2 {
+  font-family: "Bebas Neue", sans-serif;
   z-index: 2;
   font-size: 30px;
-  color: rgba(255, 255, 255, 0.513);
-  line-height: 50px;
+  color: rgba(255, 255, 255, 0.896);
+  line-height: 40px;
+  word-spacing: 10px;
+}
+#box-1 h2:last-child {
+  font-size: 35px;
+  line-height: 1;
 }
 span {
   font-size: 40px;
-  color: rgba(255, 255, 255, 0.893);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 5px;
+  color: rgb(248, 227, 1);
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
   animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -261,7 +371,7 @@ section img {
 
   .open-,
   .close- {
-    padding: 0 5px;
+    padding: 0 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -291,12 +401,11 @@ section img {
     display: block;
     width: 100%;
   }
-  .sidebar ul a:hover{
+  .sidebar ul a:hover {
     color: yellow;
     transition: 1s ease;
   }
-
-  /*  */
+  .sidebar ul li:last-child{}
   main {
   }
   #box-1 {
@@ -306,19 +415,26 @@ section img {
   }
   #box-1 h2 {
     line-height: 1;
-    font-size: 10px;
+    font-size: 20px;
+    word-spacing: 0;
+    width: 80%;
+  }
+  #box-1 h2:last-child{
+    margin-top: 10px;
+    font-size: 22px;
   }
   #box-1 span {
-    font-size: 14px;
+    font-size: 24px;
+    letter-spacing: 1px;
   }
 
   #box-2 {
     height: 100%;
-    align-items: center;
+    /* align-items: center; */
   }
 
   #me {
-    margin-top: 10px;
+    margin-top: 100px;
     width: 90px;
     height: 90px;
   }
@@ -326,39 +442,53 @@ section img {
   .opa-img {
     top: 50px;
   }
-  #sec-2{
+  #sec-2 {
     display: none;
   }
-
 }
 
-
-
-@media screen and (min-width:601px) and (max-width: 900px){
-  .desktop ul li:first-child{
-    display: none;
-}
-  .sidebar{
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #down-cv{
+    padding: 14px 20px;
+    font-size: 8px;
+  }
+  .logo-1{
+    margin-right: 0px;
+  }
+  .desktop ul li:first-child {
     display: none;
   }
-  #box-1  h2, span{
+  .sidebar {
+    display: none;
+  }
+  #box-1 h2,
+  span {
     width: 180px;
     flex-direction: column;
     line-height: 1;
     font-size: 22px;
   }
-  #sec-2{
+  #sec-2 {
     display: none;
   }
-
+  #me{
+    width: 200px;
+    height: 200px;
+  }
 }
 
-@media screen and (min-width:901px){
+@media screen and (min-width: 901px){
   .sidebar{
     display: none;
   }
-  #box-1 h2, span{
-    font-size: 34px;
+  .desktop ul li:first-child {
+    display: none;
+  }
+
+  #box-1 h2,
+  span {
+    width: 500px;
+    line-height: 60px;
+    font-size: 54px;
   }
 }
-
