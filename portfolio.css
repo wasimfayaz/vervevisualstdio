@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+/* bg smoke image */
+#bg-img-port{
+    width: 100%;
+    position: absolute;
+    z-index: -110;
+    -webkit-animation: fade-in 5s linear both;
+    animation: fade-in 5s linear both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* bg smoke ends here */
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1, h2{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  font-family: "Red Hat Display", sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.container h2{
+    position: absolute;
+    left: 0;
+    top:0;
+    color: red;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.box img:hover{
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+    transition: .6s ease;
+}
+.box, .box img{
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+}
+.box img{
+    /* -webkit-box-shadow:0px 0px 40px 4px rgba(255,255,255,0.45);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(255,255,255,0.45);
+    box-shadow: 0px 0px 40px 4px rgba(255,255,255,0.45); */
+}
+.box h3, .box p{
+    margin: 10px;
+    color: white;
+    text-align:left;
+}
+
+@media screen and (max-width:880px){
+    .box{
+        margin: 120px 20px;
+    }
+}
